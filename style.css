@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.war{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+}
+.war-name{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.war-lamp{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    font-size: 10rem;
+}
+
+.red-lamp{
+    background-color: black;
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+}
+
+.war-timer{
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.green-lamp{
+    background-color: black;
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+}
